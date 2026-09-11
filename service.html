@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>شهادتي | طلب استخراج الشهادة</title>
+
+    <meta name="description"
+        content="نموذج طلب استخراج الشهادة عبر منصة شهادتي. أدخل بياناتك ثم أرسل الطلب عبر واتساب.">
+    <meta name="theme-color" content="#075e5e">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="brand" aria-label="شهادتي - الرئيسية">
+            <img src="images/logo.png" alt="شعار شهادتي">
+        </a>
+
+        <a href="index.html" class="back-btn">الرئيسية ←</a>
+    </header>
+
+    <main class="service-page">
+
+        <div class="service-title">
+            <div class="service-icon" id="serviceIcon">📄</div>
+
+            <div class="breadcrumb">
+                شهادتي <span>←</span> تقديم الطلب
+            </div>
+
+            <h1 id="serviceTitle">استخراج الشهادة</h1>
+
+            <p id="serviceDescription">
+                يرجى إدخال البيانات المطلوبة بدقة.
+            </p>
+        </div>
+
+        <form id="certificateForm" class="certificate-form">
+
+            <div class="form-top-note">
+                <span>🔒</span>
+                <div>
+                    <strong>بيانات الطلب</strong>
+                    <small>جميع الحقول المطلوبة موضحة بعلامة *</small>
+                </div>
+            </div>
+
+            <div id="formFields"></div>
+
+            <div class="form-group">
+                <label for="notes">
+                    ملاحظات إضافية
+                    <span class="optional">(اختياري)</span>
+                </label>
+
+                <textarea
+                    id="notes"
+                    name="notes"
+                    rows="4"
+                    placeholder="اكتب أي ملاحظات أو معلومات إضافية هنا..."></textarea>
+            </div>
+
+            <div class="upload-notice">
+                <div class="notice-icon">📎</div>
+
+                <div>
+                    <strong>إرفاق المستندات</strong>
+                    <p>
+                        بعد فتح محادثة واتساب، يرجى إرفاق صور ومستندات الطلب
+                        المطلوبة في نفس المحادثة.
+                    </p>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                إرسال الطلب عبر واتساب
+                <span>←</span>
+            </button>
+
+            <div id="formMessage" class="form-message"></div>
+
+            <p class="form-footer-note">
+                بالضغط على زر الإرسال سيتم فتح واتساب وتجهيز رسالة الطلب تلقائياً.
+            </p>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <img src="images/logo.png" alt="" aria-hidden="true">
+        <p>© 2026 شهادتي - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
