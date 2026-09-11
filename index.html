@@ -2,165 +2,354 @@
 <html lang="ar" dir="rtl">
 
 <head>
-    <meta name="google-site-verification" content="dYOpqh2mIXSJC7qlatnFKwBKfknZ-ffJnn2ZDSanSAI" />
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>شهادتي | استخراج الشهادات بسهولة</title>
+    <!-- عنوان الصفحة لمحركات البحث -->
+    <title>
+        شهادتي | استخراج شهادات الأساس والثانوية والجامعية في السودان
+    </title>
 
-    <meta name="description"
-        content="شهادتي منصة سهلة لتقديم طلبات استخراج شهادات الأساس والثانوية والجامعية والتواصل عبر واتساب.">
-    <meta name="keywords"
-        content="شهادتي, استخراج الشهادات, شهادة الأساس, الشهادة الثانوية, الشهادة الجامعية, السودان">
-    <meta name="author" content="شهادتي">
-    <meta name="theme-color" content="#075e5e">
+    <!-- وصف الموقع -->
+    <meta
+        name="description"
+        content="شهادتي منصة سودانية تساعدك في طلب استخراج شهادة الأساس والشهادة الثانوية والشهادة الجامعية بسهولة، والتواصل معنا عبر الواتساب لإكمال إجراءات الطلب."
+    >
 
-    <meta property="og:title" content="شهادتي | استخراج الشهادات بسهولة">
-    <meta property="og:description"
-        content="قدم طلب استخراج شهادتك بسهولة واختر نوع الشهادة ثم أرسل بياناتك عبر واتساب.">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="logo.png">
+    <!-- محركات البحث -->
+    <meta name="robots" content="index, follow">
 
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <!-- الرابط الأساسي للصفحة -->
+    <link
+        rel="canonical"
+        href="https://shahadaty.github.io/shahadaty/"
+    >
 
-    <link rel="stylesheet" href="style.css">
+    <!-- مشاركة الموقع في فيسبوك وواتساب وغيرها -->
+    <meta
+        property="og:title"
+        content="شهادتي | استخراج الشهادات في السودان"
+    >
+
+    <meta
+        property="og:description"
+        content="منصة شهادتي لطلب استخراج شهادات الأساس والثانوية والجامعية في السودان بسهولة."
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:url"
+        content="https://shahadaty.github.io/shahadaty/"
+    >
+
+    <meta
+        property="og:image"
+        content="https://shahadaty.github.io/shahadaty/logo.png"
+    >
+
+    <!-- أيقونة الموقع -->
+    <link
+        rel="icon"
+        type="image/png"
+        href="logo.png"
+    >
+
+    <!-- ملف التصميم -->
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
 </head>
+
 
 <body>
 
-    <header class="header">
-        <a href="index.html" class="brand" aria-label="شهادتي - الرئيسية">
-            <img src="logo.png" alt="شعار شهادتي">
-        </a>
 
-        <button class="start-btn" onclick="startOrder()">
+    <!-- =========================
+         رأس الصفحة
+    ========================== -->
+
+    <header class="header">
+
+        <div class="logo">
+            شهادتي
+        </div>
+
+
+        <button
+            class="start-btn"
+            onclick="startOrder()"
+        >
             ابدأ طلبك
         </button>
+
     </header>
 
-    <main>
 
-        <section class="hero">
-            <div class="hero-content">
 
-                <div class="hero-badge">خدمات استخراج الشهادات</div>
+    <!-- =========================
+         القسم الرئيسي
+    ========================== -->
 
-                <h1>استخراج شهادتك<br><span>أصبح أسهل</span></h1>
+    <section class="hero">
+
+        <h1>
+            استخراج الشهادات في السودان أصبح أسهل
+        </h1>
+
+
+        <p>
+            منصة شهادتي تساعدك في طلب استخراج شهادات الأساس
+            والشهادة الثانوية والشهادة الجامعية بكل سهولة،
+            والتواصل معنا لإكمال إجراءات طلبك.
+        </p>
+
+
+        <button
+            class="main-btn"
+            onclick="startOrder()"
+        >
+            اطلب شهادتك الآن
+        </button>
+
+    </section>
+
+
+
+    <!-- =========================
+         الخدمات
+    ========================== -->
+
+    <section class="services">
+
+        <h2>
+            خدمات استخراج الشهادات
+        </h2>
+
+
+        <div class="cards">
+
+
+            <!-- شهادة الأساس -->
+
+            <div class="card">
+
+                <div class="icon">
+                    📄
+                </div>
+
+
+                <h3>
+                    استخراج شهادة الأساس
+                </h3>
+
 
                 <p>
-                    منصة شهادتي تساعدك على تقديم طلب استخراج شهادات الأساس
-                    والثانوية والجامعية بسهولة، ثم إرسال بيانات الطلب عبر واتساب.
+                    طلب استخراج شهادة مرحلة الأساس في السودان
+                    ومساعدتك في إكمال بيانات الطلب.
                 </p>
 
-                <div class="hero-actions">
-                    <button class="main-btn" onclick="startOrder()">
-                        اطلب شهادتك الآن
-                        <span>←</span>
-                    </button>
 
-                    <a class="whatsapp-link"
-                        href="https://wa.me/249993002322"
-                        target="_blank"
-                        rel="noopener">
-                        تواصل معنا عبر واتساب
-                    </a>
+                <button
+                    onclick="goService('basic')"
+                >
+                    طلب الخدمة
+                </button>
+
+            </div>
+
+
+
+            <!-- الشهادة الثانوية -->
+
+            <div class="card">
+
+                <div class="icon">
+                    📜
                 </div>
 
-                <div class="trust-row">
-                    <div>✓ نموذج بسيط</div>
-                    <div>✓ إرسال عبر واتساب</div>
-                    <div>✓ خدمة سهلة</div>
+
+                <h3>
+                    استخراج الشهادة الثانوية
+                </h3>
+
+
+                <p>
+                    طلب استخراج الشهادة الثانوية
+                    وإرسال بياناتك لإكمال إجراءات الطلب.
+                </p>
+
+
+                <button
+                    onclick="goService('secondary')"
+                >
+                    طلب الخدمة
+                </button>
+
+            </div>
+
+
+
+            <!-- الشهادة الجامعية -->
+
+            <div class="card">
+
+                <div class="icon">
+                    🎓
                 </div>
 
-            </div>
-        </section>
 
-        <section class="services" id="services">
+                <h3>
+                    استخراج الشهادة الجامعية
+                </h3>
 
-            <div class="section-heading">
-                <span>الخدمات</span>
-                <h2>اختر نوع الشهادة</h2>
-                <p>حدد الخدمة المناسبة ليظهر لك النموذج الخاص بها.</p>
-            </div>
 
-            <div class="cards">
+                <p>
+                    طلب استخراج الشهادات الجامعية
+                    من خلال نموذج إلكتروني سهل وسريع.
+                </p>
 
-                <article class="card">
-                    <div class="icon">📄</div>
-                    <h3>شهادة الأساس</h3>
-                    <p>تقديم طلب استخراج شهادة مرحلة الأساس وإرسال البيانات المطلوبة.</p>
-                    <button onclick="goService('basic')">طلب الخدمة <span>←</span></button>
-                </article>
 
-                <article class="card featured">
-                    <div class="popular">الأكثر طلباً</div>
-                    <div class="icon">📜</div>
-                    <h3>الشهادة الثانوية</h3>
-                    <p>تقديم طلب استخراج الشهادة الثانوية وإرسال البيانات عبر واتساب.</p>
-                    <button onclick="goService('secondary')">طلب الخدمة <span>←</span></button>
-                </article>
-
-                <article class="card">
-                    <div class="icon">🎓</div>
-                    <h3>الشهادة الجامعية</h3>
-                    <p>تقديم طلب استخراج الشهادة الجامعية بالبيانات الخاصة بالطالب.</p>
-                    <button onclick="goService('university')">طلب الخدمة <span>←</span></button>
-                </article>
+                <button
+                    onclick="goService('university')"
+                >
+                    طلب الخدمة
+                </button>
 
             </div>
-        </section>
 
-        <section class="how-it-works">
-            <div class="section-heading">
-                <span>طريقة الاستخدام</span>
-                <h2>ثلاث خطوات فقط</h2>
-            </div>
 
-            <div class="steps">
-                <div class="step">
-                    <b>1</b>
-                    <h3>اختر الخدمة</h3>
-                    <p>حدد نوع الشهادة التي تريد استخراجها.</p>
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         خطوات الخدمة
+    ========================== -->
+
+    <section class="services">
+
+        <h2>
+            كيف تعمل منصة شهادتي؟
+        </h2>
+
+
+        <div class="cards">
+
+
+            <div class="card">
+
+                <div class="icon">
+                    1️⃣
                 </div>
 
-                <div class="step">
-                    <b>2</b>
-                    <h3>املأ البيانات</h3>
-                    <p>أدخل المعلومات المطلوبة في النموذج.</p>
-                </div>
+                <h3>
+                    اختر نوع الشهادة
+                </h3>
 
-                <div class="step">
-                    <b>3</b>
-                    <h3>أرسل عبر واتساب</h3>
-                    <p>سيتم تجهيز الطلب، ثم أرفق المستندات في نفس المحادثة.</p>
-                </div>
-            </div>
-        </section>
+                <p>
+                    اختر شهادة الأساس أو الشهادة الثانوية
+                    أو الشهادة الجامعية.
+                </p>
 
-        <section class="contact-section">
-            <div>
-                <span>هل تحتاج مساعدة؟</span>
-                <h2>تواصل معنا مباشرة</h2>
-                <p>إذا واجهتك أي مشكلة أثناء تقديم الطلب، تواصل معنا عبر واتساب.</p>
             </div>
 
-            <a href="https://wa.me/249993002322"
-                target="_blank"
-                rel="noopener"
-                class="contact-btn">
-                💬 واتساب
-            </a>
-        </section>
 
-    </main>
+
+            <div class="card">
+
+                <div class="icon">
+                    2️⃣
+                </div>
+
+                <h3>
+                    املأ بيانات الطلب
+                </h3>
+
+                <p>
+                    أدخل البيانات المطلوبة في النموذج
+                    بطريقة بسيطة وسريعة.
+                </p>
+
+            </div>
+
+
+
+            <div class="card">
+
+                <div class="icon">
+                    3️⃣
+                </div>
+
+                <h3>
+                    أرسل الطلب عبر واتساب
+                </h3>
+
+                <p>
+                    بعد إرسال النموذج يتم فتح واتساب
+                    لإكمال التواصل وإرفاق المستندات المطلوبة.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         معلومات التواصل
+    ========================== -->
+
+    <section class="services">
+
+        <h2>
+            خدمات الشهادات في السودان
+        </h2>
+
+
+        <p style="text-align:center; max-width:700px; margin:auto;">
+
+            منصة شهادتي توفر طريقة سهلة ومنظمة
+            لتقديم طلبات استخراج الشهادات التعليمية
+            والتواصل مع فريق الخدمة عبر واتساب.
+
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+         تذييل الموقع
+    ========================== -->
 
     <footer>
-        <img src="logo.png" alt="" aria-hidden="true">
-        <p>© 2026 شهادتي - جميع الحقوق محفوظة</p>
+
+        <p>
+            © 2026 شهادتي - جميع الحقوق محفوظة
+        </p>
+
     </footer>
 
+
+
+    <!-- JavaScript -->
+
     <script src="script.js"></script>
+
+
 </body>
 
 </html>
